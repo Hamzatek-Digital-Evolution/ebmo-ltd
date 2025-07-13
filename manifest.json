@@ -1,19 +1,14 @@
 {
   "name": "EBMO LTD",
   "short_name": "EBMO",
-    "description": "EBMO LTD - Your partner in innovative solutions",
-    "version": "1.0.0",
-    "manifest_version": 2,
-    "author": "Hamza Barisa",
-    "homepage_url": "https://ebmo.com",
-    "lang": "en-US",
-
-  "start_url": "/index.html",
+  "description": "EBMO LTD - Trusted Catering, Security & Cleaning Services in London.",
+  "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#1d4ed8",
   "orientation": "portrait-primary",
-  "scope": "/",
+  "scope": "./",
+  "lang": "en-GB",
   "icons": [
     {
       "src": "images/icon-72x72.png",
@@ -51,10 +46,9 @@
       "type": "image/png"
     },
     {
-      "src": "images/web-app-manifest-512x512",
+      "src": "images/web-app-manifest-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
-
   ]
 }
