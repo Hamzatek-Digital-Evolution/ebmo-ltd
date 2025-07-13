@@ -4,15 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Security Services | EBMO LTD</title>
-    <link rel="manifest" href="/icons/manifest.json" />
-    <link rel="apple-touch-icon" href="/icons/web-app-manifest-192x192.png" />
+    <link rel="manifest" href="/images/manifest.json" />
+    <link rel="apple-touch-icon" href="/images/web-app-manifest-192x192.png" />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="/icons/favicon-32x32.png"
+      href="/images/favicon-32x32.png"
     />
-    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon.ico" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/images/favicon.ico"
+    />
     <meta name="theme-color" content="#1d4ed8" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -28,19 +33,16 @@
       <div
         class="container mx-auto px-4 py-4 flex justify-between items-center"
       >
-        <img
-          src="icons/favicon.ico"
-          alt="EBMO LTD Logo"
-          class="h-10 w-10 rounded-full"
-        />
-        <span> <h1 class="text-xl font-bold text-blue-700">EBMO LTD</h1></span>
+        <h1 class="text-xl font-bold text-blue-700">EBMO LTD</h1>
         <nav class="hidden md:flex space-x-6 font-medium">
           <a href="index.html" class="hover:text-blue-600">Home</a>
           <a href="event-catering.html" class="hover:text-blue-600">Catering</a>
           <a href="security-services.html" class="text-blue-700 font-semibold"
             >Security</a
           >
-          <a href="#" class="hover:text-blue-600">Cleaning</a>
+          <a href="cleaning-services.html" class="hover:text-blue-600"
+            >Cleaning</a
+          >
           <a href="contact.html" class="hover:text-blue-600">Contact</a>
         </nav>
         <button class="md:hidden text-blue-700" onclick="toggleMenu()">
@@ -61,7 +63,9 @@
           class="block py-2 text-blue-700 font-semibold"
           >Security</a
         >
-        <a href="#" class="block py-2 hover:text-blue-600">Cleaning</a>
+        <a href="cleaning-services.html" class="block py-2 hover:text-blue-600"
+          >Cleaning</a
+        >
         <a href="contact.html" class="block py-2 hover:text-blue-600"
           >Contact</a
         >
@@ -71,9 +75,7 @@
     <!-- Hero -->
     <section
       class="bg-cover bg-center h-[60vh] text-white flex items-center justify-center"
-      style="
-        background-image: url('https://source.unsplash.com/1600x900/?security,guard');
-      "
+      style="background-image: url('/images/security.png')"
     >
       <div class="bg-black bg-opacity-60 p-6 rounded text-center">
         <h2 class="text-3xl md:text-5xl font-bold mb-4">
@@ -174,23 +176,6 @@
         class="bg-white text-blue-700 px-6 py-3 rounded font-semibold hover:bg-gray-200"
         >Request Security Quote</a
       >
-    </section>
-    <!-- Contact modal-->
-    <section
-      class="bg-cover bg-center h-[60vh] text-white flex items-center justify-center"
-      style="
-        background-image: url('https://source.unsplash.com/1600x900/?cleaning,security,catering');
-      "
-    >
-      <div class="bg-black bg-opacity-60 p-8 rounded text-center">
-        <h2 class="text-3xl md:text-5xl font-bold mb-4">Contact Us</h2>
-        <p class="text-lg mb-6">We’re here to help with your security needs.</p>
-        <a
-          href="mailto:juniorhamka03@gmail.com"
-          class="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded text-white font-semibold"
-          >Email Us</a
-        >
-      </div>
     </section>
 
     <!-- Footer -->

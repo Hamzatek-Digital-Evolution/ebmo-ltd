@@ -7,8 +7,8 @@ const urlsToCache = [
   "/cleaning-services.html",
   "/contact.html",
   "/manifest.json",
-  "/icons/web-app-manifest-192x192.png",
-  "/icons/web-app-manifest-512x512",
+  "/images/web-app-manifest-192x192.png",
+  "/images/web-app-manifest-512x512",
 ];
 
 // ✅ Install Event
