@@ -205,6 +205,12 @@
         "Carpet Cleaning",
         "Window Cleaning",
       ];
+      const cateringOptions = [
+        "Wedding Catering",
+        "Corporate Catering",
+        "Private Events",
+        "Buffet Services",
+      ];
 
       const securityOptions = [
         "Event Security",
@@ -231,6 +237,14 @@
           subOptions.classList.remove("hidden");
         } else if (value === "Private Security") {
           securityOptions.forEach((opt) => {
+            subService.innerHTML += `<option value="${opt}">${opt}</option>`;
+          });
+          subOptions.classList.remove("hidden");
+        } else {
+          subOptions.classList.add("hidden");
+        }
+        if (value === "Event Catering") {
+          cateringOptions.forEach((opt) => {
             subService.innerHTML += `<option value="${opt}">${opt}</option>`;
           });
           subOptions.classList.remove("hidden");
