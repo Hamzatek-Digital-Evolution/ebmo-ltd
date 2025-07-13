@@ -1,0 +1,182 @@
+<!-- ✅ ABOUT PAGE (about.html) -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us | EBMO LTD</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="manifest" href="images/manifest.json" />
+    <link rel="apple-touch-icon" href="images/web-app-manifest-192x192.png" />
+    <meta name="theme-color" content="#1d4ed8" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="images/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/apple-touch-icon.png"
+    />
+    <meta name="apple-mobile-web-app-title" content="EBMO" />
+    <link rel="manifest" href="images/site.webmanifest" />
+    <script>
+      function toggleMenu() {
+        const menu = document.getElementById("mobile-menu");
+        menu.classList.toggle("hidden");
+      }
+    </script>
+  </head>
+  <body class="bg-white text-gray-800">
+    <!-- Header -->
+    <header class="bg-white shadow sticky top-0 z-50">
+      <div
+        class="container mx-auto px-4 py-4 flex justify-between items-center"
+      >
+        <h1 class="text-2xl font-bold text-blue-700">EBMO LTD</h1>
+        <nav class="space-x-4">
+          <a href="index.html" class="hover:text-blue-600">Home</a>
+          <a href="event-catering.html" class="hover:text-blue-600">Catering</a>
+          <a href="security-services.html" class="hover:text-blue-600"
+            >Security</a
+          >
+          <a href="cleaning-services.html" class="hover:text-blue-600"
+            >Cleaning</a
+          >
+          <a href="contact.html" class="hover:text-blue-600">Contact</a>
+        </nav>
+        <button
+          class="md:hidden text-blue-700"
+          onclick="document.getElementById('mobile-menu').classList.toggle('hidden')"
+        >
+          ☰
+        </button>
+      </div>
+      <!-- Mobile Menu -->
+      <div
+        id="mobile-menu"
+        class="hidden md:hidden bg-white px-4 py-4 border-t"
+      >
+        <a href="index.html" class="block py-2 hover:text-blue-600">Home</a>
+        <a href="event-catering.html" class="block py-2 hover:text-blue-600"
+          >Catering</a
+        >
+        <a href="security-services.html" class="block py-2 hover:text-blue-600"
+          >Security</a
+        >
+        <a
+          href="cleaning-services.html"
+          class="block py-2 text-blue-700 font-semibold"
+          >Cleaning</a
+        >
+        <a href="contact.html" class="block py-2 hover:text-blue-600"
+          >Contact</a
+        >
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="bg-blue-700 text-white py-20 text-center">
+      <h2 class="text-4xl font-bold mb-4">Who We Are</h2>
+      <p class="text-lg max-w-2xl mx-auto">
+        Delivering excellence in catering, security, and cleaning services
+        across London with professionalism and care.
+      </p>
+    </section>
+
+    <!-- About Content -->
+    <section class="py-16 px-4 max-w-5xl mx-auto">
+      <div class="space-y-6">
+        <h3 class="text-3xl font-bold text-blue-700">About EBMO LTD</h3>
+        <p>
+          EBMO LTD is a multi-service company headquartered in Hounslow, Greater
+          London. We specialize in delivering high-quality services across event
+          catering, private security, and professional cleaning. Our vision is
+          to redefine standards and exceed expectations by combining skill,
+          innovation, and customer-centric care.
+        </p>
+        <p>
+          We serve clients ranging from corporate institutions and residential
+          estates to event organizers and individual households. Every project,
+          big or small, is treated with personalized attention and a commitment
+          to excellence.
+        </p>
+
+        <h4 class="text-xl font-semibold mt-8">Our Mission</h4>
+        <p>
+          To provide exceptional services that enhance safety, cleanliness, and
+          event experience with trust and integrity.
+        </p>
+
+        <h4 class="text-xl font-semibold mt-8">Our Core Values</h4>
+        <ul class="list-disc list-inside space-y-1">
+          <li>✅ Professionalism in every service</li>
+          <li>✅ Respect for every client and employee</li>
+          <li>✅ Reliability and timeliness</li>
+          <li>✅ Integrity in all dealings</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="bg-gray-50 py-16">
+      <div class="container mx-auto px-4 text-center">
+        <h3 class="text-2xl font-bold text-blue-700 mb-10">Meet Our Team</h3>
+
+        <div class="flex flex-wrap justify-center gap-8">
+          <!-- Card 1 -->
+          <div class="bg-white shadow-lg p-6 rounded w-full max-w-xs">
+            <img
+              src="images/team1.jpg"
+              alt="Mohamed Abdirahman Haji"
+              class="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
+            />
+            <h4 class="text-lg font-bold">Mohamed Abdirahman Haji</h4>
+            <p class="text-gray-600">Director</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-16 bg-white">
+      <div class="container mx-auto px-4 text-center">
+        <h3 class="text-2xl font-bold text-blue-700 mb-10">
+          What Our Clients Say
+        </h3>
+        <div class="grid md:grid-cols-2 gap-8">
+          <div class="bg-gray-100 p-6 rounded shadow">
+            <p class="italic">
+              “EBMO made our wedding catering seamless. The food was fresh, and
+              the service was fantastic!”
+            </p>
+            <p class="mt-4 font-semibold">— Mariam K., Client</p>
+          </div>
+          <div class="bg-gray-100 p-6 rounded shadow">
+            <p class="italic">
+              “I’ve never seen my office this spotless. Weekly cleaning has been
+              top-notch!”
+            </p>
+            <p class="mt-4 font-semibold">— Alex P., Business Owner</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white text-sm py-8 text-center">
+      <p>© 2025 EBMO LTD | Company No. 16148832</p>
+      <p>Flat 13 Bellvue Court, 141-149 Staines Road, Hounslow, TW3 3JB</p>
+      <p>
+        Email:
+        <a href="mailto:info@ebmoltd.co.uk" class="underline"
+          >info@ebmoltd.co.uk</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
