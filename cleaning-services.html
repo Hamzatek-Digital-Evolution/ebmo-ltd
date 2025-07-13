@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cleaning Services | EBMO LTD</title>
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="/icons/web-app-manifest-192x192.png" />
+    <meta name="theme-color" content="#1d4ed8" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      href="/icons/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link rel="icon" type="image/svg+xml" href="/icons/favicon.svg" />
+    <link rel="shortcut icon" href="/icons/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/icons/apple-touch-icon.png"
+    />
+    <meta name="apple-mobile-web-app-title" content="EBMO" />
+    <link rel="manifest" href="/icons/site.webmanifest" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      function toggleMenu() {
+        const menu = document.getElementById("mobile-menu");
+        menu.classList.toggle("hidden");
+      }
+    </script>
+  </head>
+  <body class="bg-white text-gray-800">
+    <!-- Navbar -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+      <div
+        class="container mx-auto px-4 py-4 flex justify-between items-center"
+      >
+        <h1 class="text-xl font-bold text-blue-700">EBMO LTD</h1>
+        <nav class="hidden md:flex space-x-6 font-medium">
+          <a href="index.html" class="hover:text-blue-600">Home</a>
+          <a href="event-catering.html" class="hover:text-blue-600">Catering</a>
+          <a href="security-services.html" class="hover:text-blue-600"
+            >Security</a
+          >
+          <a href="cleaning-services.html" class="text-blue-700 font-semibold"
+            >Cleaning</a
+          >
+          <a href="contact.html" class="hover:text-blue-600">Contact</a>
+        </nav>
+        <button class="md:hidden text-blue-700" onclick="toggleMenu()">
+          ☰
+        </button>
+      </div>
+      <!-- Mobile Menu -->
+      <div
+        id="mobile-menu"
+        class="hidden md:hidden bg-white px-4 py-4 border-t"
+      >
+        <a href="index.html" class="block py-2 hover:text-blue-600">Home</a>
+        <a href="event-catering.html" class="block py-2 hover:text-blue-600"
+          >Catering</a
+        >
+        <a href="security-services.html" class="block py-2 hover:text-blue-600"
+          >Security</a
+        >
+        <a
+          href="cleaning-services.html"
+          class="block py-2 text-blue-700 font-semibold"
+          >Cleaning</a
+        >
+        <a href="contact.html" class="block py-2 hover:text-blue-600"
+          >Contact</a
+        >
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section
+      class="bg-cover bg-center h-[60vh] text-white flex items-center justify-center"
+      style="background-image: url('/cleaning.jpg')"
+    >
+      <div class="bg-black bg-opacity-60 p-6 rounded text-center">
+        <h2 class="text-3xl md:text-5xl font-bold mb-4">Cleaning Services</h2>
+        <p class="text-lg">
+          Professional, Affordable, and Reliable Cleaning for Every Space
+        </p>
+      </div>
+    </section>
+
+    <!-- Overview -->
+    <section class="py-16 bg-gray-50">
+      <div class="container mx-auto px-4 max-w-4xl text-center">
+        <h3 class="text-2xl font-bold text-blue-700 mb-4">
+          Spotless Results, Every Time
+        </h3>
+        <p class="text-gray-700 leading-relaxed">
+          At EBMO LTD, we take pride in delivering top-tier cleaning services to
+          residential, commercial, and industrial clients. Whether it's a
+          one-time deep clean or scheduled maintenance, our trained staff and
+          eco-friendly products ensure your space is left sparkling clean.
+        </p>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="py-16">
+      <div class="container mx-auto px-4">
+        <h3 class="text-2xl font-bold text-center text-blue-700 mb-12">
+          Our Cleaning Services
+        </h3>
+        <div class="grid md:grid-cols-3 gap-8 text-center">
+          <div class="p-6 bg-white rounded shadow hover:shadow-lg transition">
+            <div class="text-4xl mb-4">🏢</div>
+            <h4 class="text-lg font-bold mb-2">Office & Commercial</h4>
+            <p class="text-gray-600">
+              Regular office cleaning to maintain productivity and
+              professionalism.
+            </p>
+          </div>
+          <div class="p-6 bg-white rounded shadow hover:shadow-lg transition">
+            <div class="text-4xl mb-4">🏠</div>
+            <h4 class="text-lg font-bold mb-2">Home Cleaning</h4>
+            <p class="text-gray-600">
+              Thorough cleaning for flats, houses, and shared accommodations.
+            </p>
+          </div>
+          <div class="p-6 bg-white rounded shadow hover:shadow-lg transition">
+            <div class="text-4xl mb-4">🧹</div>
+            <h4 class="text-lg font-bold mb-2">Deep & End of Tenancy</h4>
+            <p class="text-gray-600">
+              Intensive cleaning for move-outs, construction sites, and more.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="py-16 bg-gray-100">
+      <div class="container mx-auto px-4">
+        <h3 class="text-2xl font-bold text-center text-blue-700 mb-8">
+          See Our Work
+        </h3>
+        <div class="grid md:grid-cols-3 gap-6">
+          <img
+            src="https://source.unsplash.com/400x300/?cleaning,office"
+            class="rounded shadow"
+            alt="Office Cleaning"
+          />
+          <img
+            src="https://source.unsplash.com/400x300/?cleaning,home"
+            class="rounded shadow"
+            alt="Residential Cleaning"
+          />
+          <img
+            src="https://source.unsplash.com/400x300/?cleaning,equipment"
+            class="rounded shadow"
+            alt="Cleaning Equipment"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-16 bg-blue-700 text-white text-center">
+      <h3 class="text-2xl font-bold mb-4">Need Reliable Cleaners?</h3>
+      <p class="mb-6">
+        Book a trusted cleaning team that delivers results you can see.
+      </p>
+      <a
+        href="contact.html"
+        class="bg-white text-blue-700 px-6 py-3 rounded font-semibold hover:bg-gray-200"
+        >Request a Cleaning Quote</a
+      >
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white text-sm py-8 text-center">
+      <p>© 2025 EBMO LTD | Company No. 16148832</p>
+      <p>Flat 13 Bellvue Court, 141-149 Staines Road, Hounslow, TW3 3JB</p>
+    </footer>
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function () {
+          navigator.serviceWorker.register("/service-worker.js").then(
+            function (reg) {
+              console.log(
+                "✅ Service Worker registered with scope:",
+                reg.scope
+              );
+            },
+            function (err) {
+              console.log("❌ Service Worker registration failed:", err);
+            }
+          );
+        });
+      }
+    </script>
+  </body>
+</html>
