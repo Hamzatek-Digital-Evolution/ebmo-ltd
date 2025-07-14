@@ -1,4 +1,3 @@
 User-agent: *
-Disallow:
-
-Sitemap: https://www.ebmoltd.co.uk/sitemap.xml
+Allow: /
+Sitemap: https://hamzatek-digital-evolution.github.io/ebmo-ltd/sitemap.xml
